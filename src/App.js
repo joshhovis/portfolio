@@ -1,18 +1,17 @@
 import React from 'react'
-import './App.sass'
-import Navbar from './components/Navbar/Navbar'
-import About from './components/About/About'
-import Skills from './components/Skills/Skills'
-import Projects from './components/Projects/Projects'
-import Experience from './components/Experience/Experience'
-import Contact from './components/Contact/Contact'
-import Footer from './components/Footer/Footer'
+import Navbar from './components/Navbar'
+import About from './components/About'
+import Skills from './components/Skills'
+import Projects from './components/Projects'
+import Experience from './components/Experience'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
   return (
     <div className="App">
-      <h1>Portfolio</h1>
       <main>
+        <h1>Portfolio</h1>
         <Navbar />
         <About />
         <Skills />

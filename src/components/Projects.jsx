@@ -1,5 +1,4 @@
 import React from 'react'
-import './Projects.sass'
 
 const Projects = () => {
     return (

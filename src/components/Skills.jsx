@@ -1,5 +1,4 @@
 import React from 'react'
-import './Skills.sass'
 
 const Skills = () => {
     return (
