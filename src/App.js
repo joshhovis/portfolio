@@ -10,8 +10,8 @@ import Footer from './components/Footer'
 function App() {
   return (
     <div className="App">
-      <main>
-        <h1>Portfolio</h1>
+      <main className="text-gray-400 bg-gray-900 body-font">
+        <h1 className="text-3xl">Portfolio</h1>
         <Navbar />
         <About />
         <Skills />
