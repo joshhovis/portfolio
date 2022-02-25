@@ -2,7 +2,7 @@ import React from 'react'
 
 const Skills = () => {
     return (
-        <h3>Skills</h3>
+        <div></div>
     )
 }
 
