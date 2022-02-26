@@ -2,7 +2,7 @@ import React from 'react'
 
 const Skills = () => {
     return (
-        <section id='skills' className='w-full relative px-6 sm:px-16 transition-colors duration-300 bg-neutral-50 dark:bg-neutral-900'>
+        <section id='skills' className='w-full relative px-6 sm:px-16 transition-colors duration-300 bg-neutral-50 dark:bg-[rgba(14,13,13,.8)]'>
             <div className='mx-auto sm:py-20 grid gap-8 max-w-[42rem] text-black dark:text-white'>
                 <div className='flex flex-col gap-4 items-center'>
                     <span className='text-2xl'>I am competent in</span>
