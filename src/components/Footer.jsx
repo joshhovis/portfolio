@@ -31,13 +31,13 @@ const Footer = () => {
                         <span className='sm:text-sm text-gray-600 dark:text-gray-400'>Built With</span>
                         <div className='flex gap-4 sm:gap-3 md:gap-4'>
                             <div className='h-10 w-10'>
-                                <img src="https://img.icons8.com/ultraviolet/40/000000/react--v1.png" />
+                                <img alt='React icon' src="https://img.icons8.com/ultraviolet/40/000000/react--v1.png" />
                             </div>
                             <div className='h-10 w-10'>
-                                <img width='34' src="https://cdn.sanity.io/images/mwmzpjpg/production/9f713da7e2fdb2163612503cf407f1612eef8321-32x32.svg?w=32&h=32&auto=format" />
+                                <img alt='Tailwind icon' width='34' src="https://cdn.sanity.io/images/mwmzpjpg/production/9f713da7e2fdb2163612503cf407f1612eef8321-32x32.svg?w=32&h=32&auto=format" />
                             </div>
                             <div className='h-10 w-10'>
-                                <img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/40/000000/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png" />
+                                <img alt='Netlify icon' src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/40/000000/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png" />
                             </div>
                         </div>
                     </div>

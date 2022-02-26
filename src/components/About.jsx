@@ -7,7 +7,7 @@ const About = () => {
     return (
         <section id='about' className='flex flex-wrap max-w-md px-6 py-20 mx-auto sm:max-w-xl md:max-w-4xl lg:max-w-5xl transition-colors duration-300'>
             <div className='flex items-center justify-center w-full md:w-1/3'>
-                <img src={profile} className='w-40 transform sm:w-44 md:w-48 lg:w-64 hover:scale-110 transition duration-500 ease-in-out rounded-full hover:outline-none outline-none' />
+                <img alt='profile' src={profile} className='w-40 transform sm:w-44 md:w-48 lg:w-64 hover:scale-110 transition duration-500 ease-in-out rounded-full hover:outline-none outline-none' />
             </div>
             <div className='flex items-center mt-6 md:w-2/3 md:mt-0 md:pl-3 lg:pl-6'>
                 <div className='flex flex-col items-center text-black dark:text-white md:items-start'>
