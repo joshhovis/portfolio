@@ -5,13 +5,17 @@ import useDarkMode from '../useDarkMode'
 
 const Navbar = () => {
     const [colorTheme, setTheme] = useDarkMode()
-    if (colorTheme === 'light') {
-        document.getElementById('moon').style.display = 'none'
-        document.getElementById('sun').style.display = 'block'
-    } else {
-        document.getElementById('sun').style.display = 'none'
-        document.getElementById('moon').style.display = 'block'
+    const handleClick = () => {
+        setTheme(colorTheme)
+        if (colorTheme === 'light') {
+            document.getElementById('moon').style.display = 'none'
+            document.getElementById('sun').style.display = 'block'
+        } else {
+            document.getElementById('sun').style.display = 'none'
+            document.getElementById('moon').style.display = 'block'
+        }
     }
+
     return (
         <div className="sticky top-0 z-50 flex items-center justify-center w-full px-5 h-15 bg-gray-100 dark:bg-black dark:text-gray-100">
             <nav className="flex items-center justify-between w-full h-20 max-w-[95rem]">
@@ -53,7 +57,7 @@ const Navbar = () => {
                         </a>
                     </li>
                     <li>
-                        <button onClick={() => setTheme(colorTheme)} className="group grid place-items-center w-10 h-10 relative overflow-hidden rounded-md">
+                        <button onClick={() => { handleClick() }} className="group grid place-items-center w-10 h-10 relative overflow-hidden rounded-md">
                             <div className="absolute inset-0 transition-opacity duration-500 opacity-0 group-hover:opacity-100 bg-gradient-to-tr hover:from-[#212325] hover:to-[#212325] z-0"></div>
                             <svg id='moon' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="21" height="21" fill="currentColor" className="group-hover:text-white pointer-events-none z-10 fill-current text-neutral-800 dark:text-gray-200" aria-label="Change to dark theme"><path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"></path>
                             </svg>
