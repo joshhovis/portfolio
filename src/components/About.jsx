@@ -5,7 +5,7 @@ import { Link as ScrollLink } from 'react-scroll'
 
 const About = () => {
     return (
-        <section className='flex flex-wrap max-w-md px-6 py-20 mx-auto sm:max-w-xl md:max-w-4xl lg:max-w-5xl'>
+        <section id='about' className='flex flex-wrap max-w-md px-6 py-20 mx-auto sm:max-w-xl md:max-w-4xl lg:max-w-5xl transition-colors duration-300'>
             <div className='flex items-center justify-center w-full md:w-1/3'>
                 <img src={profile} className='w-40 transform sm:w-44 md:w-48 lg:w-64 hover:scale-110 transition duration-500 ease-in-out rounded-full hover:outline-none outline-none' />
             </div>
