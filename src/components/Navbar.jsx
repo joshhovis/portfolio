@@ -21,22 +21,19 @@ const Navbar = () => {
             <nav className="flex items-center justify-between w-full h-20 max-w-[95rem]">
                 <ul className="h-full space-x-1 md:items-center hidden md:flex relative">
                     <li className='z-50'>
-                        <ScrollLink to='/' smooth={true} duration={600} offset={-100} className='p-2 px-3 rounded-md cursor-pointer text-lg transition-all duration-300 text-black hover:text-gray-600 dark:text-white dark:hover:text-white-300'>Home</ScrollLink>
+                        <Link to='/home' className='p-2 px-3 rounded-md cursor-pointer text-lg transition-all duration-300 text-black hover:text-gray-600 dark:text-white dark:hover:text-white-300'>Home</Link>
                     </li>
                     <li className='z-50'>
-                        <ScrollLink to='/' smooth={true} duration={600} offset={-100} className='p-2 px-3 rounded-md cursor-pointer text-lg transition-all duration-300 text-black hover:text-gray-600 dark:text-white dark:hover:text-white-300'>About</ScrollLink>
+                        <ScrollLink to='about' smooth={true} duration={600} offset={-100} className='p-2 px-3 rounded-md cursor-pointer text-lg transition-all duration-300 text-black hover:text-gray-600 dark:text-white dark:hover:text-white-300'>About</ScrollLink>
                     </li>
                     <li className='z-50'>
-                        <ScrollLink to='/' smooth={true} duration={600} offset={-100} className='p-2 px-3 rounded-md cursor-pointer text-lg transition-all duration-300 text-black hover:text-gray-600 dark:text-white dark:hover:text-white-300'>Skills</ScrollLink>
+                        <ScrollLink to='skills' smooth={true} duration={600} offset={-100} className='p-2 px-3 rounded-md cursor-pointer text-lg transition-all duration-300 text-black hover:text-gray-600 dark:text-white dark:hover:text-white-300'>Skills</ScrollLink>
                     </li>
                     <li className='z-50'>
-                        <ScrollLink to='/' smooth={true} duration={600} offset={-100} className='p-2 px-3 rounded-md cursor-pointer text-lg transition-all duration-300 text-black hover:text-gray-600 dark:text-white dark:hover:text-white-300'>Projects</ScrollLink>
+                        <ScrollLink to='projects' smooth={true} duration={600} offset={-100} className='p-2 px-3 rounded-md cursor-pointer text-lg transition-all duration-300 text-black hover:text-gray-600 dark:text-white dark:hover:text-white-300'>Projects</ScrollLink>
                     </li>
                     <li className='z-50'>
                         <ScrollLink to='/' smooth={true} duration={600} offset={-100} className='p-2 px-3 rounded-md cursor-pointer text-lg transition-all duration-300 text-black hover:text-gray-600 dark:text-white dark:hover:text-white-300'>Experience</ScrollLink>
-                    </li>
-                    <li className='z-50'>
-                        <ScrollLink to='/' smooth={true} duration={600} offset={-100} className='p-2 px-3 rounded-md cursor-pointer text-lg transition-all duration-300 text-black hover:text-gray-600 dark:text-white dark:hover:text-white-300'>Contact</ScrollLink>
                     </li>
                     <li className='z-50'>
                         <Link to='/resume' className='p-2 px-3 rounded-md cursor-pointer text-lg transition-all duration-300 text-black hover:text-gray-600 dark:text-white dark:hover:text-white-300'>Resume</Link>

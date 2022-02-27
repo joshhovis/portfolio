@@ -10,9 +10,9 @@ const Footer = () => {
                     <div className='flex flex-col gap-4 items-center'>
                         <span className='w-max font-bold text-4xl sm:text-2xl uppercase'>Joshua Hovis</span>
                         <div className='grid grid-cols-2 w-full sm:w-min sm:flex gap-4 text-xl'>
-                            <ScrollLink to='/' smooth={true} duration={600} offset={-100} className='hover:text-gray-700 dark:hover:text-gray-300 transition-colors cursor-pointer'>About</ScrollLink>
-                            <ScrollLink to='/' smooth={true} duration={600} offset={-100} className='hover:text-gray-700 dark:hover:text-gray-300 transition-colors cursor-pointer'>Skills</ScrollLink>
-                            <ScrollLink to='/' smooth={true} duration={600} offset={-100} className='hover:text-gray-700 dark:hover:text-gray-300 transition-colors cursor-pointer'>Projects</ScrollLink>
+                            <ScrollLink to='about' smooth={true} duration={600} offset={-100} className='hover:text-gray-700 dark:hover:text-gray-300 transition-colors cursor-pointer'>About</ScrollLink>
+                            <ScrollLink to='skills' smooth={true} duration={600} offset={-100} className='hover:text-gray-700 dark:hover:text-gray-300 transition-colors cursor-pointer'>Skills</ScrollLink>
+                            <ScrollLink to='projects' smooth={true} duration={600} offset={-100} className='hover:text-gray-700 dark:hover:text-gray-300 transition-colors cursor-pointer'>Projects</ScrollLink>
                             <ScrollLink to='/' smooth={true} duration={600} offset={-100} className='hover:text-gray-700 dark:hover:text-gray-300 transition-colors cursor-pointer'>Experience</ScrollLink>
                         </div>
                     </div>
