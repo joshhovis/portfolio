@@ -1,23 +1,18 @@
 import React from 'react'
 import Navbar from './components/Navbar'
-import About from './components/About'
-import Skills from './components/Skills'
-import Projects from './components/Projects'
-import Experience from './components/Experience'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
+import Home from './components/Home'
+import { Routes, Route, Navigate } from 'react-router-dom'
+
 
 function App() {
   return (
     <div className="">
       <main className='min-h-screen dark:bg-black'>
         <Navbar />
-        <About />
-        <Skills />
-        <Projects />
-        <Experience />
-        <Contact />
-        <Footer />
+        <Routes>
+          <Route path='/' element={<Navigate to='/home' />} />
+          <Route path='/home' element={<Home />} />
+        </Routes>
       </main>
     </div>
   )

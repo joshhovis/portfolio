@@ -38,6 +38,9 @@ const Navbar = () => {
                     <li className='z-50'>
                         <ScrollLink to='/' smooth={true} duration={600} offset={-100} className='p-2 px-3 rounded-md cursor-pointer text-lg transition-all duration-300 text-black hover:text-gray-600 dark:text-white dark:hover:text-white-300'>Contact</ScrollLink>
                     </li>
+                    <li className='z-50'>
+                        <Link to='/resume' className='p-2 px-3 rounded-md cursor-pointer text-lg transition-all duration-300 text-black hover:text-gray-600 dark:text-white dark:hover:text-white-300'>Resume</Link>
+                    </li>
                 </ul>
                 <ul className='flex items-center h-full space-x-1'>
                     <li>
