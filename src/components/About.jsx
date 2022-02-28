@@ -24,7 +24,7 @@ const About = () => {
                     </p>
                     <div className='flex flex-row items-center'>
                         <a to='/' href='mailto:joshuahovis3@gmail.com' className='px-6 py-2 text-xl border-2 rounded-full text-purple-800 border-purple-700 text-center hover:bg-purple-300 hover:border-purple-300 md:text-1xl dark:border-blue-600 dark:text-blue-600 dark:hover:bg-blue-200 dark:hover:border-blue-200 mb-4 mr-4 cursor-pointer ease-in-out duration-300 font-medium'>Get in touch</a>
-                        <Link to='/resume' className='px-6 py-2 text-xl border-2 rounded-full text-purple-800 border-purple-700 text-center hover:bg-purple-300 hover:border-purple-300 md:text-1xl dark:border-blue-600 dark:text-blue-600 dark:hover:bg-blue-200 dark:hover:border-blue-200 mb-4 mr-4 cursor-pointer ease-in-out duration-300 font-medium'>My Resume</Link>
+                        <a href={require('../assets/Joshua-Hovis-Resume.pdf')} target='_blank' className='px-6 py-2 text-xl border-2 rounded-full text-purple-800 border-purple-700 text-center hover:bg-purple-300 hover:border-purple-300 md:text-1xl dark:border-blue-600 dark:text-blue-600 dark:hover:bg-blue-200 dark:hover:border-blue-200 mb-4 mr-4 cursor-pointer ease-in-out duration-300 font-medium'>My Resume</a>
                     </div>
                 </div>
             </div>
