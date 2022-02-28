@@ -33,9 +33,6 @@ const Navbar = () => {
                         <ScrollLink to='projects' smooth={true} duration={600} offset={-100} className='p-2 px-3 rounded-md cursor-pointer text-lg transition-all duration-300 text-black hover:text-gray-600 dark:text-white dark:hover:text-white-300'>Projects</ScrollLink>
                     </li>
                     <li className='z-50'>
-                        <ScrollLink to='/' smooth={true} duration={600} offset={-100} className='p-2 px-3 rounded-md cursor-pointer text-lg transition-all duration-300 text-black hover:text-gray-600 dark:text-white dark:hover:text-white-300'>Experience</ScrollLink>
-                    </li>
-                    <li className='z-50'>
                         <Link to='/resume' className='p-2 px-3 rounded-md cursor-pointer text-lg transition-all duration-300 text-black hover:text-gray-600 dark:text-white dark:hover:text-white-300'>Resume</Link>
                     </li>
                 </ul>
