@@ -9,7 +9,7 @@ const Skills = () => {
             <div className='mx-auto sm:py-20 py-10 px-2 grid gap-8 max-w-full text-black dark:text-white'>
                 <div className='flex flex-col gap-3 items-center'>
                     <ChipIcon className='mx-auto inline-block w-10 mb-4 -mt-3 text-neutral-700 dark:text-white' />
-                    <h1 className='sm:text-3xl font-medium title-font mb-1 text-black dark:text-white'>Skills</h1>
+                    <h1 className='text-3xl font-medium title-font mb-1 text-black dark:text-white'>Skills</h1>
                     <span className='text-2xl'>Skills in my toolbox</span>
                     <ul className='flex flex-wrap justify-center gap-4 md:w-[34rem]'>
                         {skills.map((skill) => (

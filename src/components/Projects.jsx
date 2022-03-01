@@ -8,8 +8,8 @@ const Projects = () => {
             <div className='container px-5 py-10 mx-auto text-center lg:px-40'>
                 <div className='flex flex-col w-full mb-20'>
                     <CodeIcon className='mx-auto inline-block w-10 mb-4 text-neutral-700 dark:text-white' />
-                    <h1 className='sm:text-3xl font-medium title-font mb-4 text-black dark:text-white'>Projects I've built</h1>
-                    <p className='lg:w-2/3 mx-auto leading-relaxed text-base'>
+                    <h1 className='text-3xl font-medium title-font mb-4 text-black dark:text-white'>Projects I've built</h1>
+                    <p className='lg:w-2/3 mx-auto leading-relaxed text-lg -mb-12 sm:mb-0'>
                         A collection of the most recent projects I have completed
                     </p>
                 </div>
