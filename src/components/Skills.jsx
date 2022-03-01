@@ -3,7 +3,6 @@ import { ChipIcon } from '@heroicons/react/solid'
 import { skills } from '../data'
 import { skillsExploring } from '../data'
 
-
 const Skills = () => {
     return (
         <section id='skills' className='w-full relative sm:px-16 transition-colors duration-300 bg-neutral-50 dark:bg-[rgba(14,13,13,.8)] mx-auto'>
