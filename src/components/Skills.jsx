@@ -13,11 +13,11 @@ const Skills = () => {
                     <span className='text-2xl'>Skills in my toolbox</span>
                     <ul className='flex flex-wrap justify-center gap-4 md:w-[34rem]'>
                         {skills.map((skill) => (
-                            <li className='grid grid-cols-[max-content_1fr] bg-white shadow-md w-[10rem] md:w-[16rem]'>
+                            <li className='grid grid-cols-[max-content_1fr] bg-white shadow-md dark:bg-neutral-900 w-[10rem] md:w-[16rem] rounded-md'>
                                 <div className='inline-block align-top relative overflow-hidden h-7 w-7 m-1'>
                                     <img alt={`${skill.title} icon`} width='32' height='32' src={skill.iconImg} />
                                 </div>
-                                <span className='px-3 md:px-2 bg-neutral-200 dark:bg-neutral-300 dark:text-black sm:text-lg flex items-center justify-center'>{skill.title}</span>
+                                <span className='px-3 md:px-2 bg-neutral-100 dark:bg-neutral-300 dark:text-black sm:text-lg flex items-center justify-center rounded-r-md'>{skill.title}</span>
                             </li>
                         ))}
                     </ul>
@@ -26,11 +26,11 @@ const Skills = () => {
                     <span className='text-2xl'>Skills I am exploring</span>
                     <ul className='flex flex-wrap justify-center gap-4 md:w-[34rem]'>
                         {skillsExploring.map((skillNew) => (
-                            <li className='grid grid-cols-[max-content_1fr] bg-white shadow-md w-[10rem] md:w-[16rem]'>
+                            <li className='grid grid-cols-[max-content_1fr] bg-white dark:bg-neutral-900 shadow-md w-[10rem] md:w-[16rem] rounded-md'>
                                 <div className='inline-block align-top relative overflow-hidden h-7 w-7 m-1'>
                                     <img alt={`${skillNew.title} icon`} width='32' height='32' src={skillNew.iconImg} />
                                 </div>
-                                <span className='px-3 md:px-2 bg-neutral-200 dark:bg-neutral-300 dark:text-black sm:text-lg flex items-center justify-center'>{skillNew.title}</span>
+                                <span className='px-3 md:px-2 bg-neutral-100 dark:bg-neutral-300 dark:text-black sm:text-lg flex items-center justify-center rounded-r-md'>{skillNew.title}</span>
                             </li>
                         ))}
                     </ul>
