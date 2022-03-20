@@ -21,7 +21,15 @@ export const projects = [
         description: "A technology related News website that presents the most recent and highest trending articles to the user with a variety of different search filters",
         image: 'https://i.imgur.com/juzIO5e.png',
         codeLink: 'https://github.com/joshhovis/the-architech',
-        liveLink: 'https://admiring-sinoussi-965ae2.netlify.app/'
+        liveLink: 'https://the-architech.netlify.app/mobile'
+    },
+    {
+        title: "HOCs Nest",
+        subtitle: "React, Django, PostgreSQL, Redis, SCSS",
+        description: "A realtime live chat application for playing games and communicating with groups of friends.",
+        image: 'https://i.imgur.com/vwUozoB.png',
+        codeLink: 'https://github.com/samcowing/HOCsNest',
+        liveLink: 'https://hocsnest.herokuapp.com/'
     },
     {
         title: "Personal Portfolio",
@@ -29,7 +37,7 @@ export const projects = [
         description: "A personal portfolio to display all relevant information about my skills and prior projects",
         image: 'https://i.imgur.com/LHv0Mnk.png?2',
         codeLink: 'https://github.com/joshhovis/portfolio',
-        liveLink: ''
+        liveLink: 'https://www.joshuahovis.com/home'
     }
 ]
 
