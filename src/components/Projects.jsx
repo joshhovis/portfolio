@@ -13,10 +13,10 @@ const Projects = () => {
                         A collection of the most recent projects I have completed
                     </p>
                 </div>
-                <div className='flex flex-wrap -m-6 sm:-m-12 overflow-hidden'>
+                <div className='flex flex-wrap justify-center -m-6 sm:-m-12 overflow-hidden'>
                     {projects.map((project) => (
-                        <div className='sm:w-1/2 w-full p-4'>
-                            <div className='flex relative ease-in-out duration-300 hover:scale-105'>
+                        <div className='sm:w-1/2 w-full p-5'>
+                            <div className='flex relative ease-in-out duration-300 hover:scale-105 shadow-lg rounded-xl'>
                                 <img src={project.image} alt={`${project.title} cover image`} className='absolute inset-0 w-full h-full object-cover object-center rounded-xl' />
                                 <div className='px-8 py-20 relative z-10 w-full h-full border-4 border-neutral-800 bg-neutral-900 opacity-0 hover:opacity-100 ease-in-out duration-300 rounded-xl'>
                                     <h2 className='tracking-widest text-sm title-font font-medium text-purple-600 dark:text-blue-600 mb-1'>{project.subtitle}</h2>

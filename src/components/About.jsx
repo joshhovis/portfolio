@@ -1,5 +1,5 @@
 import React from 'react'
-import profile from '../assets/profile.jpeg'
+import profile from '../assets/profile.jpg'
 import { Link } from 'react-router-dom'
 import { Link as ScrollLink } from 'react-scroll'
 
@@ -20,10 +20,10 @@ const About = () => {
                         <span className='text-3xl text-purple-700 dark:text-blue-600'>Front End Developer</span>
                     </h2>
                     <p className='w-full mb-6 text-xl text-center text-gray-800 md:text-1xl dark:text-gray-100 md:text-left md:max-w-md lg:max-w-xl'>
-                        I am a Junior Dev that is passionate about creating responsive, optimized, and efficient websites. Check out my work below and if you like what you see, then reach out!
+                        I am a Front-End Developer with full-stack knowledge, who is passionate about taking an idea and turning it into a website that the client and users fall in love with. Check out my work below and if you like what you see, then reach out!
                     </p>
                     <div className='flex flex-row items-center'>
-                        <a to='/' href='mailto:joshuahovis3@gmail.com' className='px-6 py-2 text-xl border-2 rounded-full text-purple-800 border-purple-700 text-center hover:bg-purple-300 hover:border-purple-300 md:text-1xl dark:border-blue-600 dark:text-blue-600 dark:hover:bg-blue-200 dark:hover:border-blue-200 mb-4 mr-4 cursor-pointer ease-in-out duration-300 font-medium'>Get in touch</a>
+                        <a to='/' href='mailto:joshuahoviswork@gmail.com' className='px-6 py-2 text-xl border-2 rounded-full text-purple-800 border-purple-700 text-center hover:bg-purple-300 hover:border-purple-300 md:text-1xl dark:border-blue-600 dark:text-blue-600 dark:hover:bg-blue-200 dark:hover:border-blue-200 mb-4 mr-4 cursor-pointer ease-in-out duration-300 font-medium'>Get in touch</a>
                         <a href={require('../assets/Joshua-Hovis-Resume.pdf')} target='_blank' className='px-6 py-2 text-xl border-2 rounded-full text-purple-800 border-purple-700 text-center hover:bg-purple-300 hover:border-purple-300 md:text-1xl dark:border-blue-600 dark:text-blue-600 dark:hover:bg-blue-200 dark:hover:border-blue-200 mb-4 mr-4 cursor-pointer ease-in-out duration-300 font-medium'>My Resume</a>
                     </div>
                 </div>
