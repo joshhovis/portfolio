@@ -13,7 +13,7 @@ export const projects = [
         description: "A website that was built by fetching a comprehensive database of games for users to browse through and save their favorite games to a collection.",
         image: 'https://i.imgur.com/mvJeIFZ.png',
         codeLink: 'https://github.com/joshhovis/GameHOC',
-        liveLink: 'https://gamehoc1.herokuapp.com/'
+        liveLink: 'https://gamehoc.herokuapp.com/'
     },
     {
         title: "The Architech",
