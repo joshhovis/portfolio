@@ -23,14 +23,14 @@ export const projects = [
         codeLink: 'https://github.com/joshhovis/the-architech',
         liveLink: 'https://the-architech.netlify.app/mobile'
     },
-    {
-        title: "HOCs Nest",
-        subtitle: "React, Django, PostgreSQL, Redis, SCSS",
-        description: "A realtime live chat application for playing games and communicating with groups of friends.",
-        image: 'https://i.imgur.com/vwUozoB.png',
-        codeLink: 'https://github.com/samcowing/HOCsNest',
-        liveLink: 'https://hocsnest.herokuapp.com/'
-    },
+    // {
+    //     title: "HOCs Nest",
+    //     subtitle: "React, Django, PostgreSQL, Redis, SCSS",
+    //     description: "A realtime live chat application for playing games and communicating with groups of friends.",
+    //     image: 'https://i.imgur.com/vwUozoB.png',
+    //     codeLink: 'https://github.com/samcowing/HOCsNest',
+    //     liveLink: 'https://hocsnest.herokuapp.com/'
+    // },
     {
         title: "Personal Portfolio",
         subtitle: "React and TailwindCSS",
